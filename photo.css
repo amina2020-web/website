@@ -1,0 +1,19 @@
+*{
+	box-sizing: border-box;
+}
+.gallery{
+	border: 1px solid #ccc;
+}
+.gallery img{
+	width: 100%;
+	height: auto;
+}
+.image{
+	padding: 0 6px;
+	float: left;
+	width: 25%;
+}
+.image:hover{
+	transform: translate(10px );
+}
+
